@@ -10,8 +10,8 @@ import expertsimg from "../assets/experts.png";
 
 const Landing = () => (
   <Router basename="/home">
-    <Route
-      render={() => (
+    {/* <Route
+      render={() => ( */}
         <div id="landing-master">
           <section id="parallax-1">
             <img src={cogwhitelogo} alt="White Mock Logo" />
@@ -82,8 +82,8 @@ const Landing = () => (
             </p>
           </section>
         </div>
-      )}
-    />
+      {/* )}
+    /> */}
   </Router>
 );
 

@@ -1,0 +1,40 @@
+#side-drawer {
+    height: 100%;
+    width: 2.5vw;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    background-color: rgb(93, 107, 107);
+}
+
+#drawer-nav-list {
+    height: 100%;
+}
+
+#drawer-nav-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#drawer-nav-list li {
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13.5px;
+}
+
+#drawer-nav-list li:hover {
+    background-color: rgb(158, 155, 155);
+    cursor: pointer;
+}
+
+#drawer-nav-list i {
+}

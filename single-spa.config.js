@@ -19,8 +19,28 @@ registerApplication(
 );
 
 registerApplication(
+  "datadash",
+  () => import("./src/DataDash/DataDash.app"),
+  location => location.pathname.startsWith("/datadash")
+);
+
+registerApplication(
   "dashboard",
   () => import("./src/dashboard/dashboard.app"),
   location => location.pathname.startsWith("/dashboard")
+  // pathPrefix("/dashboard")
 );
+
+registerApplication(
+  "counter",
+  () => import("./src/Counter/Counter.app"),
+  location => location.pathname.startsWith("/counter")
+);
+
 start();
+
+function pathPrefix(prefix) {
+  return function(location) {
+    return location.pathname.indexOf(`${prefix}`) === 0;
+  };
+}
