@@ -15,3 +15,10 @@ https://gitlab.com/TheMcMurder/single-spa-portal-example
 
 https://github.com/big-squid/react-microfe
 
+
+
+//joeldenning
+
+https://github.com/single-spa/single-spa-examples/issues/55
+
+https://www.youtube.com/playlist?list=PLLUD8RtHvsAOhtHnyGx57EYXoaNsxGrTU
