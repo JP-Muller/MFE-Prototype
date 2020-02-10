@@ -43,7 +43,7 @@ class DataDash extends Component {
     } else
       return (
         <Router basename="/datadash">
-          <div id="loading-container" style={{ marginTop: "75px" }}>
+          <div className="data-dash-wrapper" style={{ marginTop: "75px" }}>
             <CircleLoader size={200} color={"lightblue"} />
           </div>
         </Router>
