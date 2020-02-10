@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./DataDash.css";
-import axios from 'axios'
+import axios from "axios";
 import ListItem from "./ListItem/ListItem";
+import { CircleLoader } from "react-spinners";
 import { BrowserRouter as Router } from "react-router-dom";
 
 class DataDash extends Component {
@@ -12,11 +13,9 @@ class DataDash extends Component {
     };
   }
 
- 
-
-   componentDidMount() {
-      this.getPlaceholderData()
-    }
+  componentDidMount() {
+    this.getPlaceholderData();
+  }
 
   getPlaceholderData = () => {
     return axios
@@ -45,7 +44,7 @@ class DataDash extends Component {
       return (
         <Router basename="/datadash">
           <div id="loading-container" style={{ marginTop: "75px" }}>
-            <h2>LOADING...</h2>
+            <CircleLoader size={200} color={"lightblue"} />
           </div>
         </Router>
       );
