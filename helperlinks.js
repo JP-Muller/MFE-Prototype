@@ -34,6 +34,8 @@ https://www.youtube.com/playlist?list=PLLUD8RtHvsAOhtHnyGx57EYXoaNsxGrTU
 
 //Martin Fowler
 
+https://www.martinfowler.com/articles/micro-frontends.html#TheExampleInDetail
+
 https://github.com/micro-frontends-demo
 
 https://github.com/micro-frontends-demo/container
