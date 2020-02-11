@@ -32,3 +32,9 @@ https://github.com/single-spa/single-spa/issues/123
 
 https://www.youtube.com/playlist?list=PLLUD8RtHvsAOhtHnyGx57EYXoaNsxGrTU
 
+//Martin Fowler
+
+https://github.com/micro-frontends-demo
+
+https://github.com/micro-frontends-demo/container
+
