@@ -40,3 +40,5 @@ https://github.com/micro-frontends-demo
 
 https://github.com/micro-frontends-demo/container
 
+https://www.reddit.com/r/javascript/comments/ceoy2b/askjs_thoughts_on_standardising_multiple/
+
